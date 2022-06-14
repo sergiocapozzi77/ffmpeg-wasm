@@ -78,6 +78,12 @@
               "browserTarget": "ffmpeg-wasm:build:development"
             }
           },
+          "options": {
+            "headers": {
+              "Cross-Origin-Opener-Policy":"same-origin",
+              "Cross-Origin-Embedder-Policy":"require-corp"
+            }
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -106,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
