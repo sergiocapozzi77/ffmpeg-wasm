@@ -35,6 +35,6 @@ export class AppComponent {
       URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }))
     );
 
-    console.log('this.videoSrc', this.videoSrc);
+    console.log('videoSrc', this.videoSrc);
   }
 }
